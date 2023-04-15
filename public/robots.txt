@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://thewordmixer.com
+
+# Sitemaps
+Sitemap: https://thewordmixer.com/sitemap.xml

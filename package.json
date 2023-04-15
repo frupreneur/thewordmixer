@@ -5,14 +5,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.3.0",
+    "an-array-of-english-words": "^2.0.0",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "next": "13.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sharp": "^0.31.3",
+    "trie-prefix-tree": "^1.5.1",
+    "next-sitemap": "^3.1.50"
   }
 }
