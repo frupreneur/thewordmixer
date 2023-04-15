@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { Meta } from "@/components";
 
-export default function disclaimer() {
+export default function PrivacyPolicy() {
   return (
     <>
       <Meta
@@ -57,11 +57,11 @@ export default function disclaimer() {
           </p>
           <h2>Cookies and Web Beacons</h2>
           <p>
-            We use cookies to store information about visitors' preferences and
+            We use cookies to store information about visitors preferences and
             the pages they accessed or visited to optimize the user experience.
             We may also use third-party vendors, like Google, who may use
             cookies, such as the DoubleClick DART cookie, to serve ads based on
-            a visitor's previous visits to our site.
+            a visitors previous visits to our site.
           </p>
           <h2>Advertising Partners Privacy Policies</h2>
           <p>

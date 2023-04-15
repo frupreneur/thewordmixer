@@ -3,7 +3,7 @@ import { ContactForm, Meta } from "@/components";
 import { useGlobalState } from "@/state";
 import Link from "next/link";
 
-export default function contact() {
+export default function Contact() {
   const { state } = useGlobalState();
 
   console.log(state);

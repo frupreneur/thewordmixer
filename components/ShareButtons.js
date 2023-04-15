@@ -9,7 +9,7 @@ export default function ShareButtons() {
       <div className="share-container">
         <h2>Help Your Friends!!!</h2>
         <p>
-          Don't stop the fun, share this website with friends so they can check
+          Dont stop the fun, share this website with friends so they can check
           their purity level <br />
           (Your results will not be shared)
         </p>
