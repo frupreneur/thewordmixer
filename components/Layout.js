@@ -13,6 +13,7 @@ const andika = Andika({
 export default function Layout({ children }) {
   return (
     <>
+      
       <Head>
         <link rel="shortcut icon" href="/assets/favicon.ico" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

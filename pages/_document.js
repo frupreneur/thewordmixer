@@ -5,14 +5,11 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <Script
-          id="AdSenseId"
-          data-ad-client="ca-pub-7721600787257010"
-          crossOrigin="anonymous"
-          async="true"
-          strategy="beforeInteractive"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721600787257010"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <body>
         <Main />
