@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { Header, Footer, Meta } from "../components";
 import { Andika } from "@next/font/google";
+import Script from "next/script";
 
 const andika = Andika({
   subsets: ["latin"],

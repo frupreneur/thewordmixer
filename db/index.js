@@ -21,6 +21,10 @@ export const menu = [
 
 export const footerMenu = [
   {
+    name: "Site Map",
+    path: "/sitemap.xml",
+  },
+  {
     name: "About Us",
     path: "/about",
   },
