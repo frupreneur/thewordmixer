@@ -14,7 +14,7 @@ export const menu = [
   },
   {
     name: "About Us",
-    path: "/about-us",
+    path: "/about",
   },
   { name: "Contact us", path: "/contact" },
 ];
@@ -22,7 +22,7 @@ export const menu = [
 export const footerMenu = [
   {
     name: "About Us",
-    path: "/about-us",
+    path: "/about",
   },
   {
     name: "Terms and Conditions",
@@ -243,4 +243,3 @@ export const trendingPosts = [
     path: "/words-ending-in/air?option=5-letter-words",
   },
 ];
-
