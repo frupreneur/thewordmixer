@@ -10,14 +10,10 @@ export default function Contact() {
   return (
     <>
       <Meta
-        title="Contact Us - Rice Purity Test"
+        title="Contact Us - The Word Mixer"
         description="If you have any questions or would like to partner with us, please contact us."
       />
       <ContactForm />
-      <Link href="/" alt="Rice Purity Test">
-        {" "}
-        <button>TAKE RICE PURITY TEST</button>
-      </Link>
     </>
   );
 }

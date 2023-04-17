@@ -8,3 +8,6 @@ export { default as ContactForm } from "./ContactForm";
 export { default as Ad } from "./Ad";
 export { default as WordMixer } from "./WordMixer";
 export { default as WordUnscrambler } from "./WordUnscrambler";
+export { default as StartingWith } from "./StartingWith";
+export { default as WordSearch } from "./WordSearch";
+export { default as TrendingPosts } from "./TrendingPosts";

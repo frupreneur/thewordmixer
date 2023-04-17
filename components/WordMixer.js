@@ -47,7 +47,7 @@ export default function WordMixer() {
       wordOneRef.current.value = "";
       wordTwoRef.current.value = "";
     } else {
-      setError("Error: Enter Words ");
+      setError("Error: Enter Word ");
     }
   };
 

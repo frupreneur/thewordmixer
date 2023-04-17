@@ -766,6 +766,12 @@ article > p {
   color: var(--color-primary-700);
 }
 
+/* select input */
+.selectInput {
+  min-width: 200px !important;
+  margin: 0.5rem auto !important;
+}
+
 @media screen and (min-width: 1170px) {
   .menu-icon {
     display: none;
