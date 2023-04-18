@@ -1,12 +1,6 @@
-import React from "react";
-import { useGlobalState } from "@/state";
-import { useRouter } from "next/router";
-import { RiFileWord2Line } from "react-icons/ri";
-import Link from "next/link";
 import { Meta, TrendingPosts } from "@/components";
 
 export default function WordsThatRhymeWithPage({ word, results }) {
-  const { state, setState } = useGlobalState();
   const title = `Words That Rhyme With ${word}`;
 
   if (results.length <= 0)
@@ -69,6 +63,7 @@ export default function WordsThatRhymeWithPage({ word, results }) {
           )}
         </div>
       ))}
+      <TrendingPosts />
     </div>
   );
 }

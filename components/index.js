@@ -1,7 +1,6 @@
 export { default as Header } from "./Header";
 export { default as Footer } from "./Footer";
 export { default as Meta } from "./Meta";
-export { default as QuizContainer } from "./QuizContainer";
 export { default as AnswerContainer } from "./AnswerContainer";
 export { default as ShareButtons } from "./ShareButtons";
 export { default as ContactForm } from "./ContactForm";
@@ -11,3 +10,4 @@ export { default as WordUnscrambler } from "./WordUnscrambler";
 export { default as StartingWith } from "./StartingWith";
 export { default as WordSearch } from "./WordSearch";
 export { default as TrendingPosts } from "./TrendingPosts";
+export { default as Blog } from "./Blog";

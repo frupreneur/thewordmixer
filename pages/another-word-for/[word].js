@@ -1,12 +1,7 @@
-import React from "react";
-import { useGlobalState } from "@/state";
-import { useRouter } from "next/router";
-import { RiFileWord2Line } from "react-icons/ri";
-import Link from "next/link";
+
 import { Meta, TrendingPosts } from "@/components";
 
 export default function AnotherWordForPage({ word, results }) {
-  const { state, setState } = useGlobalState();
 
   if (results.length <= 0)
     return (
@@ -20,7 +15,7 @@ export default function AnotherWordForPage({ word, results }) {
   return (
     <div className="site-wrap" id="site-wrap">
       <Meta
-        title={`What is Another Word For ${word} - The Word Mixer`}
+        title={`What is Another Word For ${word}`}
         description={`What is another word for ${word}? view results of more than 100 words with same meaning as ${word}  `}
       />
       <h1

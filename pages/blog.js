@@ -1,13 +1,6 @@
-import React from "react";
-import { WordMixer, Meta, TrendingPosts } from "@/components";
-import { DATABASE, testimonials } from "@/db";
-import Link from "next/link";
-import Image from "next/image";
-import { useGlobalState } from "@/state";
+import { Meta, Blog } from "@/components";
 
 export default function BlogPage(props) {
-  const { state, setState } = useGlobalState();
-
   return (
     <>
       <Meta title="Blog - The Word Mixer" />
@@ -18,7 +11,7 @@ export default function BlogPage(props) {
           Browse through our trending posts which users love
         </p>
 
-        <TrendingPosts />
+        <Blog />
       </div>
     </>
   );

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer">
         <div className="footerHeader">
           <ul className="footer-menu">
-            {menu.slice(0,3).map((menuItem, i) => (
+            {menu.slice(0,4).map((menuItem, i) => (
               <li key={i}>
                 <Link href={menuItem.path}>{menuItem.name}</Link>
               </li>

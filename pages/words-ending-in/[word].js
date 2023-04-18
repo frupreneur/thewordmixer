@@ -1,20 +1,10 @@
-import React from "react";
-import { useGlobalState } from "@/state";
-import { useRouter } from "next/router";
-import { RiFileWord2Line } from "react-icons/ri";
-import Link from "next/link";
 import { Meta, TrendingPosts } from "@/components";
 
 export default function WordsEndingInPage({ word, results, wordCount }) {
-  const { state, setState } = useGlobalState();
-  const [error, setError] = React.useState(null);
-  const router = useRouter();
-
-  const wordRef = React.useRef(null);
   const title =
     wordCount == 1
-      ? `Words Ending In ${word} - TheWordMixer`
-      : `${wordCount} Letter Words Ending in ${word} - TheWordMixer`;
+      ? `Words Ending In ${word}`
+      : `${wordCount} Letter Words Ending in ${word}`;
 
   if (results.length <= 0)
     return (

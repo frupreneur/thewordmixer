@@ -1,5 +1,4 @@
 import React from "react";
-import { QuestionContainer } from "@/components";
 import { useGlobalState } from "@/state";
 import Image from "next/image";
 import { GiAngelWings } from "react-icons/gi";
@@ -24,7 +23,7 @@ export default function QuizContainer() {
 
   return (
     <div className="quizContainer">
-      {(state.presentQuestion == -1 ) && (
+      {state.presentQuestion == -1 && (
         <>
           <Image
             style={{}}
@@ -60,12 +59,6 @@ export default function QuizContainer() {
             {!error && <GiAngelWings />}
             {error ? error : "START PURITY TEST"}
           </button>
-        </>
-      )}
-
-      {state.presentQuestion > -1 && (
-        <>
-          <QuestionContainer />
         </>
       )}
     </div>
