@@ -1,6 +1,8 @@
 import { Meta, TrendingPosts } from "@/components";
 
 export default function WordsEndingInPage({ word, results, wordCount }) {
+  word = word.toUpperCase();
+
   const title =
     wordCount == 1
       ? `Words Ending In ${word}`

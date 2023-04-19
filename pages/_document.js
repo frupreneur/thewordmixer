@@ -5,11 +5,11 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721600787257010"
-          crossorigin="anonymous"
-        ></script>
+      {/* <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721600787257010"
+        crossorigin="anonymous"
+      ></script> */}
 
         {/* <Script
           async

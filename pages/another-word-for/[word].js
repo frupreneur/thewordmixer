@@ -1,7 +1,7 @@
-
 import { Meta, TrendingPosts } from "@/components";
 
 export default function AnotherWordForPage({ word, results }) {
+  word = word.toUpperCase();
 
   if (results.length <= 0)
     return (

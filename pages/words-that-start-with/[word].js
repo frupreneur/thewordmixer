@@ -1,6 +1,8 @@
 import { Meta, TrendingPosts } from "@/components";
 
 export default function StartingWithDynamicPage({ word, results, wordCount }) {
+  word = word.toUpperCase();
+
   const title =
     wordCount == 1
       ? `Words That Start With ${word}`

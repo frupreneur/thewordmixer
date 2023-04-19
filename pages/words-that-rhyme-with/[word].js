@@ -1,6 +1,8 @@
 import { Meta, TrendingPosts } from "@/components";
 
 export default function WordsThatRhymeWithPage({ word, results }) {
+  word = word.toUpperCase();
+
   const title = `Words That Rhyme With ${word}`;
 
   if (results.length <= 0)
