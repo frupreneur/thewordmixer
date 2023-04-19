@@ -11,6 +11,8 @@ export default function Ad() {
     data-full-width-responsive="true"
   ></ins>`;
 
+    // ad cleaner
+
     let timer = setTimeout(() => {
       try {
         if (typeof window !== "undefined") {
