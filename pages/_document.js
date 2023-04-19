@@ -8,7 +8,7 @@ export default function Document() {
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721600787257010"
-          crossOrigin="anonymous"
+          crossorigin="anonymous"
         ></script>
 
         {/* <Script
