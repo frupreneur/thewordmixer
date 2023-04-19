@@ -2,9 +2,9 @@ import React from "react";
 import Head from "next/head";
 import { Header, Footer, Meta } from "../components";
 import { Andika } from "@next/font/google";
-import Script from "next/script";
-import * as gtag from "@/utils/gtag";
-import { useRouter } from "next/router";
+// import Script from "next/script";
+// // import * as gtag from "@/utils/gtag";
+// import { useRouter } from "next/router";
 
 const andika = Andika({
   subsets: ["latin"],
@@ -13,17 +13,17 @@ const andika = Andika({
 });
 
 export default function Layout({ children }) {
-  const router = useRouter();
+  // const router = useRouter();
 
-  React.useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageView(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
+  // React.useEffect(() => {
+  //   const handleRouteChange = (url) => {
+  //     gtag.pageView(url);
+  //   };
+  //   router.events.on("routeChangeComplete", handleRouteChange);
+  //   return () => {
+  //     router.events.off("routeChangeComplete", handleRouteChange);
+  //   };
+  // }, [router.events]);
   return (
     <>
       {/* <Script
