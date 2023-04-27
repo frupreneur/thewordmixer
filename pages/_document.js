@@ -5,10 +5,10 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <script
+        <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4320323956955727"
-          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          strategy="lazyOnload"
         />
       </Head>
       <body>

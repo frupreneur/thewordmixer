@@ -466,9 +466,12 @@ ul .secondary li {
   overflow: "hidden";
 }
 .adHolder {
-  min-height: 360px !important;
+  min-height: 250px !important;
   min-width: 300px !important;
   margin-inline: auto !important;
+  background: rgb(235, 232, 232);
+  border-radius: .25rem !important;
+  overflow: hidden !important;
 }
 
 .adHolder > ins {
