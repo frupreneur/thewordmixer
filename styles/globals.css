@@ -466,8 +466,13 @@ ul .secondary li {
   overflow: "hidden";
 }
 .adHolder {
-  min-height: 250px !important;
+  min-height: 360px !important;
   min-width: 300px !important;
+  margin-inline: auto !important;
+}
+
+.adHolder > ins {
+  margin-inline: auto !important;
 }
 
 .disease-container {
