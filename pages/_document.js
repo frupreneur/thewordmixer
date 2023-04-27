@@ -6,6 +6,7 @@ export default function Document() {
     <Html lang="en-US">
       <Head>
         <Script
+          id="googleAdSenseScript"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           strategy="lazyOnload"
