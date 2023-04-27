@@ -1,9 +1,7 @@
 import React from "react";
-import { blogPosts } from "../db";
 import Link from "next/link";
 
-export default function Blog() {
-
+export default function Blog({ blogPosts }) {
   return (
     <div>
       <h2>Posts On The Word Mixer</h2>

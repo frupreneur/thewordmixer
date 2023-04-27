@@ -1,6 +1,7 @@
 import { Meta, Blog } from "@/components";
+import { blogPosts } from "@/db";
 
-export default function BlogPage(props) {
+export default function BlogPage({ blogPosts }) {
   return (
     <>
       <Meta title="Blog - The Word Mixer" />
@@ -11,8 +12,16 @@ export default function BlogPage(props) {
           Browse through our trending posts which users love
         </p>
 
-        <Blog />
+        <Blog blogPosts={blogPosts} />
       </div>
     </>
   );
+}
+
+export async function getStaticProps(context) {
+  return {
+    props: {
+      blogPosts,
+    }, // will be passed to the page component as props
+  };
 }
