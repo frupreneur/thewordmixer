@@ -21,9 +21,9 @@ export default function Home(props) {
           that you can use for combining words or names in just one click. This
           tool generates creative, readable & amazing combinations.
         </p>
-        {/* <Ad /> */}
+        <Ad />
         <WordMixer />
-        {/* <Ad /> */}
+        <Ad />
         {state.mixedWords.length > 0 && (
           <article
             className="articleHome resultsContainer"
@@ -82,7 +82,7 @@ export default function Home(props) {
             put together than you could ever make on your own.`}
           </p>
         </article>
-        {/* <Ad /> */}
+        <Ad />
         <TrendingPosts />
       </div>
     </>

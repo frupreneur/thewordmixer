@@ -29,27 +29,27 @@ export default function Ad() {
     //   </path>
     // </svg>`;
 
-    // adHolder.current.innerHTML = `<ins class="adsbygoogle"
-    //   style="display:block"
-    //   data-ad-client="ca-pub-4320323956955727"
-    //   data-ad-slot="1063568912"
-    //   data-ad-format="auto"
-    //   data-full-width-responsive="true"></ins>`;
+    adHolder.current.innerHTML = `<ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-4320323956955727"
+      data-ad-slot="1063568912"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>`;
 
-    // // ad cleaner
+    // ad cleaner
 
-    // let timer = setTimeout(() => {
-    //   try {
-    //     if (typeof window !== "undefined") {
-    //       (adsbygoogle = window.adsbygoogle || []).push({});
-    //     }
-    //   } catch (err) {
-    //     console.error(err);
-    //   }
-    // }, 3000);
-    // return () => {
-    //   clearTimeout(timer);
-    // };
+    let timer = setTimeout(() => {
+      try {
+        if (typeof window !== "undefined") {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      } catch (err) {
+        console.error(err);
+      }
+    }, 3000);
+    return () => {
+      clearTimeout(timer);
+    };
   });
 
   return (
