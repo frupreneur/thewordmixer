@@ -5,13 +5,27 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <Script
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4320323956955727"
+          crossorigin="anonymous"
+        ></script>
+        {/* <Script
           id="googleAdSenseScript"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           data-client="ca-pub-4320323956955727"
           strategy="beforeInteractive"
-        />
+        /> */}
+
+        {/* <Script
+          id="show-autoads"
+          dangerouslySetInnerHTML={{
+            __html: `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4320323956955727"
+            crossorigin="anonymous"></cript>`,
+          }}
+          strategy="beforeInteractive"
+        /> */}
       </Head>
       <body>
         <Main />
