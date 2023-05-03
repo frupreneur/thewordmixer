@@ -18,6 +18,7 @@ html {
   --s: #fe7f2d;
 }
 main {
+  padding-top: 50px;
   width: 100%;
   /* display: flex;
   align-items: center; */
@@ -86,6 +87,7 @@ header {
   right: 0;
   left: 0;
   width: 100vw;
+  z-index: 100;
 }
 
 h1 {
