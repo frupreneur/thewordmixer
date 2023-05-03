@@ -32,25 +32,25 @@ export default function Ad() {
  
     // ad cleaner
 
-    let timer = setTimeout(() => {
-      adHolder.current.innerHTML = `<ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-4320323956955727"
-      data-ad-slot="1063568912"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>`;
+    // let timer = setTimeout(() => {
+    //   adHolder.current.innerHTML = `<ins class="adsbygoogle"
+    //   style="display:block"
+    //   data-ad-client="ca-pub-4320323956955727"
+    //   data-ad-slot="1063568912"
+    //   data-ad-format="auto"
+    //   data-full-width-responsive="true"></ins>`;
       
-      try {
-        if (typeof window !== "undefined") {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }
-      } catch (err) {
-        console.error(err);
-      }
-    }, 3000);
-    return () => {
-      clearTimeout(timer);
-    };
+    //   try {
+    //     if (typeof window !== "undefined") {
+    //       (adsbygoogle = window.adsbygoogle || []).push({});
+    //     }
+    //   } catch (err) {
+    //     console.error(err);
+    //   }
+    // }, 3000);
+    // return () => {
+    //   clearTimeout(timer);
+    // };
   });
 
   return (

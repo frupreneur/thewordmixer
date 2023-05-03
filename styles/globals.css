@@ -473,9 +473,6 @@ ul .secondary li {
   overflow: "hidden";
 }
 .adHolder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 250px !important;
   min-width: 300px !important;
   margin-inline: auto !important;
@@ -486,6 +483,7 @@ ul .secondary li {
 
 .adHolder > ins {
   margin-inline: auto !important;
+ 
 }
 
 .disease-container {
@@ -717,8 +715,9 @@ article > p {
 }
 
 .adHolder > svg {
+  margin-top: 85px;
   width: 5rem;
-  margin: auto;
+
 }
 
 @media screen and (max-width: 1170px) {
