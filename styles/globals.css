@@ -80,6 +80,13 @@ body > div {
   display: flex;
   flex-direction: column;
 }
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+}
 
 h1 {
   font-size: 3rem;
@@ -466,11 +473,14 @@ ul .secondary li {
   overflow: "hidden";
 }
 .adHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 250px !important;
   min-width: 300px !important;
   margin-inline: auto !important;
   background: rgb(235, 232, 232);
-  border-radius: .25rem !important;
+  border-radius: 0.25rem !important;
   overflow: hidden !important;
 }
 
@@ -704,6 +714,11 @@ article > p {
 
 .intro {
   font-size: 1.2rem;
+}
+
+.adHolder > svg {
+  width: 5rem;
+  margin: auto;
 }
 
 @media screen and (max-width: 1170px) {
