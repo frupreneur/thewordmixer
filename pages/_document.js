@@ -9,7 +9,7 @@ export default function Document() {
           id="googleAdSenseScript"
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          strategy="lazyOnload"
+          strategy="beforeInteractive"
         />
       </Head>
       <body>
