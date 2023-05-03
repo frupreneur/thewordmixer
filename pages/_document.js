@@ -10,7 +10,7 @@ export default function Document() {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           data-client="ca-pub-4320323956955727"
-          strategy="lazyOnload"
+          strategy="beforeInteractive"
         />
       </Head>
       <body>
