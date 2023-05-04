@@ -23,7 +23,6 @@ export default function Home(props) {
         </p>
         <Ad />
         <WordMixer />
-        <Ad />
         {state.mixedWords.length > 0 && (
           <article
             className="articleHome resultsContainer"
@@ -82,7 +81,6 @@ export default function Home(props) {
             put together than you could ever make on your own.`}
           </p>
         </article>
-        <Ad />
         <TrendingPosts />
       </div>
     </>
