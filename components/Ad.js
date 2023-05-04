@@ -10,9 +10,6 @@ export default function Ad() {
       data-ad-format="auto"
       data-full-width-responsive="true"></ins>`;
 
-
-      
-
     // ad cleaner
 
     let timer = setTimeout(() => {
@@ -27,11 +24,11 @@ export default function Ad() {
     return () => {
       clearTimeout(timer);
     };
-  });
+  },[]);
 
   return (
     <>
-      <div id="ads" className={`ad-container`} aria-hidden="true">
+      <div id="ads" className={`ad-container`} >
         <p style={{ fontStyle: "italic" }}>Advertisement</p>
         <div className="adHolder" ref={adHolder}></div>
       </div>

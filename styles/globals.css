@@ -470,12 +470,12 @@ ul .secondary li {
   width: 100%;
   max-width: 1200px;
   text-align: center;
-  min-height: 250px !important;
+  height: 325px !important;
   min-width: 300px !important;
   overflow: "hidden";
 }
 .adHolder {
-  min-height: 250px !important;
+  height: 325px !important;
   min-width: 300px !important;
   margin-inline: auto !important;
   background: rgb(235, 232, 232);
@@ -485,7 +485,6 @@ ul .secondary li {
 
 .adHolder > ins {
   margin-inline: auto !important;
- 
 }
 
 .disease-container {
@@ -719,7 +718,6 @@ article > p {
 .adHolder > svg {
   margin-top: 85px;
   width: 5rem;
-
 }
 
 @media screen and (max-width: 1170px) {
