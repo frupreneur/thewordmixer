@@ -7,7 +7,7 @@ export default function Blog({ blogPosts }) {
       <h2>Posts On The Word Mixer</h2>
       {blogPosts.map((x, i) => {
         return (
-          <Link key={i} href={x.path}>
+          <Link key={i} href={x.path} style={{margin: "1rem"}}>
             <p> {x.name}</p>
           </Link>
         );
