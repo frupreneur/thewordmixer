@@ -15,41 +15,8 @@ const andika = Andika({
 export default function Layout({ children }) {
   const router = useRouter();
 
-  // React.useEffect(() => {
-  //   let timer = setTimeout(() => {
-  //     var ads = document.getElementsByClassName("adsbygoogle").length;
-  //     console.log(ads);
-  //     for (var i = 0; i < ads; i++) {
-  //       try {
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //       } catch (e) {}
-  //     }
-  //   }, 50);
-
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, [router.asPath]);
   return (
     <>
-      {/* <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      /> */}
       <Head>
         <link rel="shortcut icon" href="/assets/favicon.ico" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

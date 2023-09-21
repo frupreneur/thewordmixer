@@ -18,7 +18,7 @@ export default function StartingWithDynamicPage({ word, results, wordCount }) {
   return (
     <>
       <Meta
-        title={title}
+        title={title + " - The Word Mixer"}
         description={` Searching words that start with ${word}? view results of over 100 words starting with ${word}`}
       />
       <div className="site-wrap" id="site-wrap">

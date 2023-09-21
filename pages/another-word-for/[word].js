@@ -15,7 +15,7 @@ export default function AnotherWordForPage({ word, results }) {
   return (
     <div className="site-wrap" id="site-wrap">
       <Meta
-        title={`What is Another Word For ${word}`}
+        title={`What is Another Word For ${word}` + " - The Word Mixer"}
         description={`What is another word for ${word}? view results of more than 100 words with same meaning as ${word}  `}
       />
       <h1

@@ -16,7 +16,7 @@ export default function WordsThatRhymeWithPage({ word, results }) {
   return (
     <div className="site-wrap" id="site-wrap">
       <Meta
-        title={title}
+        title={title + " - The Word Mixer"}
         description={`Searching for words that rhyme with ${word}? view results of words which rhyme with ${word} and their meanings`}
       />
 

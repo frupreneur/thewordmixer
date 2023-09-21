@@ -2,8 +2,8 @@ import React from "react";
 import Head from "next/head";
 
 export default function Meta({
-  title = `Word Mixer - Combine words in one click!`,
-  description = "A Word mixer that you can use for combining words or names in just one click. This tool generates creative, readable & amazing combinations. Visit now!",
+  title = `Word Mixer - Word Combiner - Combine words generator!`,
+  description = "A Word mixer / word combiner that you can use to combine words or names for free. This combine words generator generates creative, readable & amazing combinations. Visit now!",
   url = "https://thewordmixer.com",
   index = "index, follow",
 }) {

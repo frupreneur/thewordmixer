@@ -19,7 +19,7 @@ export default function WordsEndingInPage({ word, results, wordCount }) {
   return (
     <div className="site-wrap" id="site-wrap">
       <Meta
-        title={title}
+        title={title + " - The Word Mixer"}
         description={` Searching words ending in ${word}? view results of over 100 words that end in ${word}`}
       />
       <h1
