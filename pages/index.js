@@ -1,5 +1,5 @@
 import React from "react";
-import { WordMixer, Meta, TrendingPosts, Ad } from "@/components";
+import { WordMixer, Meta, TrendingPosts } from "@/components";
 import { DATABASE, testimonials } from "@/db";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,9 +21,9 @@ export default function Home(props) {
           that you can use for combining words or names in just one click. This
           tool generates creative, readable & amazing combinations.
         </p>
-        <Ad />
+
         <WordMixer />
-        <Ad />
+
         {state.mixedWords.length > 0 && (
           <article
             className="articleHome resultsContainer"
@@ -82,7 +82,7 @@ export default function Home(props) {
             put together than you could ever make on your own.`}
           </p>
         </article>
-        <Ad />
+
         <TrendingPosts />
       </div>
     </>

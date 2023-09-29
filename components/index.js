@@ -4,7 +4,7 @@ export { default as Meta } from "./Meta";
 export { default as AnswerContainer } from "./AnswerContainer";
 export { default as ShareButtons } from "./ShareButtons";
 export { default as ContactForm } from "./ContactForm";
-export { default as Ad } from "./Ad";
+export { default as AdUnit } from "./Ad";
 export { default as WordMixer } from "./WordMixer";
 export { default as WordUnscrambler } from "./WordUnscrambler";
 export { default as StartingWith } from "./StartingWith";

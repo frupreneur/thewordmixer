@@ -2,9 +2,6 @@ import React from "react";
 import Head from "next/head";
 import { Header, Footer, Meta } from "../components";
 import { Andika } from "@next/font/google";
-// import Script from "next/script";
-// // import * as gtag from "@/utils/gtag";
-import { useRouter } from "next/router";
 
 const andika = Andika({
   subsets: ["latin"],
@@ -13,7 +10,33 @@ const andika = Andika({
 });
 
 export default function Layout({ children }) {
-  const router = useRouter();
+  React.useEffect(() => {
+    console.log("pathname changed");
+    // Delay 3 seconds before showing ads
+    let timer = setTimeout(async () => {
+      try {
+        // Get Ad Element
+        const autoAdScript = document.querySelector("#googleAdSenseScript");
+
+        // Remove "data-nscript"  script to avoid AdSense Warnings
+        if (autoAdScript.attributes["data-nscript"]) {
+          autoAdScript.removeAttribute("data-nscript");
+        }
+
+        // Add Script to initialize ads
+        autoAdScript.setAttribute(
+          "src",
+          `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4320323956955727`
+        );
+      } catch (err) {
+        console.error(err);
+      }
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
 
   return (
     <>
