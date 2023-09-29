@@ -6,7 +6,6 @@ import { RiFileWord2Line } from "react-icons/ri";
 export default function WordMixer() {
   const { state, setState, DATABASE } = useGlobalState();
   const [error, setError] = React.useState(null);
-  const router = useRouter();
 
   const wordOneRef = React.useRef(null);
   const wordTwoRef = React.useRef(null);
@@ -41,8 +40,6 @@ export default function WordMixer() {
         ...old,
         mixedWords: results,
       }));
-
-      router.push("#mixedWordsResults");
 
       wordOneRef.current.value = "";
       wordTwoRef.current.value = "";
