@@ -1,6 +1,7 @@
+"use client";
+
 import React from "react";
 import { useGlobalState } from "@/state";
-import { useRouter } from "next/router";
 import { RiFileWord2Line } from "react-icons/ri";
 
 export default function WordMixer() {

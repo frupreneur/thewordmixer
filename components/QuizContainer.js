@@ -1,8 +1,10 @@
+"use client";
+
 import React from "react";
 import { useGlobalState } from "@/state";
 import Image from "next/image";
 import { GiAngelWings } from "react-icons/gi";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function QuizContainer() {
   const { state, setState, DATABASE } = useGlobalState();
